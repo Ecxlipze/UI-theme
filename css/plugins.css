@@ -1,26 +1,3 @@
-/*
-  [CSS Index - plugins]
-*/
-/* 
-  1. Bootstrap v3.3.7
-  2. Select2 4.1.0-rc.0
-  3. Ionicons, v2.0.0
-  4. core PhotoSwipe v4.1.1
-    4.1. PhotoSwipe Default v4.1.1
-  5. Owl Carousel v2.2.0
-  6. Swiper v4.4.0
-  7. Magnific Popup v1.1.0
-  8. Lity v2.2.2
-  9. animate.css v3.7.2
-  10. jQuery UI v1.13.1 - datepicker.css
-*/
-/* 1. Bootstrap v3.3.7 */
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
