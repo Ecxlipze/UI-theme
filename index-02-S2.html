@@ -19,10 +19,10 @@
             "text/css">
         <!-- google fonts end -->
     </head>
-<body cz-shortcut-listen="true">
+    <body>
         <!-- preloader start -->
-        <div class="preloader-bg" style="display: none;"></div>
-        <div id="preloader" style="display: none;">
+        <div class="preloader-bg"></div>
+        <div id="preloader">
             <div id="preloader-status">
                 <div class="preloader-position loader">
                     <span></span>
@@ -49,7 +49,7 @@
         <nav class="navbar navbar-fixed-top navbar-bg-switch">
             <!-- container start -->
             <div class="container-fluid nopadding">
-                <div class="navbar-header fadeIn-element" style="">
+                <div class="navbar-header fadeIn-element">
                     <!-- logo start -->
                     <div class="logo">
                         <a class="navbar-brand logo" href="index.html">
@@ -64,7 +64,7 @@
                     <!-- logo end -->
                 </div>
                 <!-- main navigation start -->
-                <div class="main-navigation fadeIn-element" style="">
+                <div class="main-navigation fadeIn-element">
                     <div class="navbar-header">
                         <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle
                         navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
@@ -113,29 +113,24 @@
             <!-- hero bg start -->
             <div class="hero-fullscreen">
                 <div class="hero-fullscreen-FIX">
-                    <div class="hero-bg hero-bg-show">
+                    <div class="hero-bg">
                         <!-- hero slider wrapper start -->
                         <div class="swiper-container-wrapper">
                             <!-- swiper container start -->
-                            <div class="swiper-container swiper2 swiper-container-horizontal">
+                            <div class="swiper-container swiper2">
                                 <!-- swiper wrapper start -->
                                 <div class="swiper-wrapper">
                                     <!-- swiper slider item start -->
-                                    <div class="swiper-slide swiper-slide-active" style="width: 1513px;">
+                                    <div class="swiper-slide">
                                         <div class="swiper-slide-inner">
                                             <!-- swiper slider item IMG start -->
                                             <div class="swiper-slide-inner-bg bg-img-1 overlay overlay-dark">
-                                                <!-- HTML5 video URL start -->
-                                                <video playsinline="" autoplay="" muted="" loop="">
-                                                    <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-3.mp4" type="video/mp4">
-                                                </video>
-                                                <!-- HTML5 video URL end -->
                                             </div>
                                             <!-- swiper slider item IMG end -->
                                             <!-- swiper slider item txt start -->
                                             <div class="swiper-slide-inner-txt-2">
                                                 <!-- section subtitle start -->
-                                                <div class="star-wrapper fadeIn-element" style="">
+                                                <div class="star-wrapper fadeIn-element">
                                                     <span class="ion-ios-star"></span>
                                                     <span class="ion-ios-star"></span>
                                                     <span class="ion-ios-star"></span>
@@ -147,15 +142,25 @@
                                                 <div class="divider-m"></div>
                                                 <!-- divider end -->
                                                 <!-- section title start -->
-                                                <h1 class="hero-heading hero-heading-home fadeIn-element" style="">
+                                                <h1 class="hero-heading hero-heading-home fadeIn-element">
                                                     Step Into Luxury
                                                 </h1>
                                                 <!-- section title end -->
                                                 <!-- divider start -->
                                                 <div class="divider-m"></div>
+
                                                 <!-- divider end -->
                                                 <!-- button start -->
-                                                
+                                                <div class="more-wraper-center more-wraper-center-home fadeIn-element">
+                                                    <a class="button button-effect" href="#rooms">
+                                                        <div class="more-wraper-inner-home">
+                                                            <i class="pulse"></i>
+                                                            <div class="more-button-txt-center more-button-txt-center-home">
+                                                                <span>Explore rooms</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
                                                 <!-- button end -->
                                             </div>
                                             <!-- swiper slider item txt end -->
@@ -164,7 +169,7 @@
                                     <!-- swiper slider item end -->
                                 </div>
                                 <!-- swiper wrapper end -->   
-                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                            </div>
                             <!-- swiper container end -->
                         </div>
                         <!-- hero slider wrapper end -->
@@ -175,7 +180,7 @@
             <!-- scroll indicator start -->
             <div class="scroll-indicator scroll-indicator-home">
                 <div class="scroll-indicator-wrapper">
-                    <div class="scroll-line fadeIn-element" style=""></div>
+                    <div class="scroll-line fadeIn-element"></div>
                 </div>
             </div>
             <!-- scroll indicator end -->
@@ -214,7 +219,7 @@
         <!-- reservation form wrapper start -->
         <div>
             <!-- reservation form start -->
-            <div class="reservation-wrapper reservation-wrapper-home fadeIn-element" style="">
+            <div class="reservation-wrapper reservation-wrapper-home fadeIn-element">
                 <!-- container start -->
                 <div class="container">
                     <div class="extra-margin-container">
@@ -224,7 +229,7 @@
                                     <div class="input-wrapper">
                                         <label>Check-In</label>
                                         <div class="input-inner">
-                                            <input class="requiredField-r checkin form-control input datepicker hasDatepicker" id="checkin" name="checkin" placeholder="Check-In" type="text" spellcheck="false" data-ms-editor="true">
+                                            <input class="requiredField-r checkin form-control input datepicker" id="checkin" name="checkin" placeholder="Check-In" type="text">
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +237,7 @@
                                     <div class="input-wrapper">
                                         <label>Check-Out</label>
                                         <div class="input-inner">
-                                            <input class="requiredField-r checkout form-control input datepicker hasDatepicker" id="checkout" name="checkout" placeholder="Check-Out" type="text" spellcheck="false" data-ms-editor="true">
+                                            <input class="requiredField-r checkout form-control input datepicker" id="checkout" name="checkout" placeholder="Check-Out" type="text">
                                         </div>
                                     </div>
                                 </div>
@@ -248,13 +253,13 @@
                                     <div class="select-wrapper">
                                         <label>Time</label>
                                         <div class="select-inner">
-                                            <select class="requiredField-r time select2 select select2-hidden-accessible" id="time" name="time" data-select2-id="select2-data-time" tabindex="-1" aria-hidden="true">
-                                                <option class="" value="" selected="selected" data-select2-id="select2-data-2-h3y6">Time</option>
+                                            <select class="requiredField-r time select2 select" id="time" name="time">
+                                                <option class="" value="" selected="selected">Time</option>
                                                 <option value="10:00 a.m.">10:00 a.m.</option>
                                                 <option value="11:00 a.m.">11:00 a.m.</option>
                                                 <option value="12:00 p.m.">12:00 p.m.</option>
                                                 <option value="1:00 p.m.">1:00 p.m.</option>
-                                            </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-1-2opt" style="width: 190px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-time-container" aria-controls="select2-time-container"><span class="select2-selection__rendered" id="select2-time-container" role="textbox" aria-readonly="true" title="Time">Time</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -262,13 +267,13 @@
                                     <div class="select-wrapper">
                                         <label>Persons</label>
                                         <div class="select-inner">
-                                            <select class="requiredField-r persons select2 select select2-hidden-accessible" id="persons" name="persons" data-select2-id="select2-data-persons" tabindex="-1" aria-hidden="true">
-                                                <option value="" selected="selected" data-select2-id="select2-data-4-luwe">Persons</option>
+                                            <select class="requiredField-r persons select2 select" id="persons" name="persons">
+                                                <option value="" selected="selected">Persons</option>
                                                 <option value="1 Person">1 Person</option>
                                                 <option value="2 Persons">2 Persons</option>
                                                 <option value="3 Persons">3 Persons</option>
                                                 <option value="4 Persons">4 Persons</option>
-                                            </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-3-njto" style="width: 190px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-persons-container" aria-controls="select2-persons-container"><span class="select2-selection__rendered" id="select2-persons-container" role="textbox" aria-readonly="true" title="Persons">Persons</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -286,8 +291,8 @@
         <!-- reservation form wrapper end -->
         <!-- vertical lines start -->
         <div class="vertical-lines-wrapper">
-            <div class="vertical-lines"><div class="vertical-lines-wrapper"><div class="vertical-effect"></div><div class="vertical-effect"></div><div class="vertical-effect"></div></div></div>
-        <div class="vertical-effect"></div><div class="vertical-effect"></div><div class="vertical-effect"></div></div>
+            <div class="vertical-lines"></div>
+        </div>
         <!-- vertical lines end -->
         <!-- about start -->
         <div id="about" class="section-all bg-dark">
@@ -302,7 +307,7 @@
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
@@ -396,7 +401,7 @@
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
@@ -419,7 +424,7 @@
                     <!-- parallax wrapper start -->
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
-                        <video playsinline="" autoplay="" muted="" loop="">
+                        <video playsinline autoplay muted loop>
                             <source src="https://www.11-76.com/html5-videos-22/luxex/luxex.mp4" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
@@ -429,40 +434,15 @@
                         <!-- parallax content start -->
                         <div class="parallax-content">
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- testimonials start -->
-                            <div class="owl-carousel owl-carousel-testimonials owl-loaded owl-drag">
+                            <div class="owl-carousel owl-carousel-testimonials">
                                 <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transition: all; width: 10591px; transform: translate3d(-3026px, 0px, 0px);"><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item active center" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -471,7 +451,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -479,7 +462,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -488,36 +474,28 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                                </div>
+                                <!-- testimonials quote end -->
+                            </div>
                             <!-- testimonials end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- button start -->
-                            
+                            <div class="more-wraper-center">
+                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
+                                    <div class="more-button-bg-center more-button-circle"></div>
+                                    <div class="more-button-txt-center">
+                                        <span>Watch Video</span>
+                                    </div>
+                                </a>
+                            </div>
                             <!-- button end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                         </div>
                         <!-- parallax content end -->
@@ -541,7 +519,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -573,14 +551,13 @@
                 <!-- row end -->
                 <!-- row start -->
                 <div class="row">
-
                     <!-- col start -->
                     <div class="col-lg-12">
                         <!-- divider start -->
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -594,23 +571,9 @@
             <!-- container start -->
             <div class="container-fluid nopadding">
                 <!-- carousel start -->
-                <div class="owl-carousel owl-carousel-rooms owl-loaded owl-drag">
+                <div class="owl-carousel owl-carousel-rooms">
                     <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-521px, 0px, 0px); transition: all; width: 2605px;"><div class="owl-item" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-1 all-bg-right"></div>
                         <a class="popup-photo" href="img/rooms/rooms-single/1.jpg" title="IMG Description">
@@ -675,7 +638,10 @@
                             <!-- row end -->
                         </div>
                         <!-- halve TXT end -->
-                    </div></div><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve TXT start -->
                         <div class="half half-color">
                             <!-- row start -->
@@ -716,7 +682,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="rooms-single.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -730,14 +703,17 @@
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-2 all-bg-left"></div>
                         <a class="popup-photo" href="img/rooms/rooms-single/2.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
-                    </div></div><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-3 all-bg-right"></div>
                         <a class="popup-photo" href="img/rooms/rooms-single/3.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
@@ -780,7 +756,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="rooms-single.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -791,7 +774,10 @@
                             <!-- row end -->
                         </div>
                         <!-- halve TXT end -->
-                    </div></div><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve TXT start -->
                         <div class="half half-color">
                             <!-- row start -->
@@ -832,7 +818,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="rooms-single.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -846,10 +839,13 @@
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-4 all-bg-left"></div>
                         <a class="popup-photo" href="img/rooms/rooms-single/4.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
-                    </div></div><div class="owl-item" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all rooms-bg-5 all-bg-right"></div>
                         <a class="popup-photo" href="img/rooms/rooms-single/5.jpg" title="IMG Description">
@@ -914,13 +910,15 @@
                             <!-- row end -->
                         </div>
                         <!-- halve TXT end -->
-                    </div></div></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                    </div>
+                    <!-- halve end -->
+                </div>
                 <!-- carousel end -->
                 <!-- divider start -->
                 <div class="divider-l"></div>
                 <!-- divider end -->
                 <!-- owl nav start -->
-                <div class="owl-nav owl-nav-custom-rooms"><div class="owl-prev"><i class="ion-chevron-left"></i></div><div class="owl-next"><i class="ion-chevron-right"></i></div></div>
+                <div class="owl-nav owl-nav-custom-rooms"></div>
                 <!-- owl nav end -->
                 <!-- row start -->
                 <div class="row">
@@ -930,7 +928,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -952,7 +950,7 @@
                     <!-- parallax wrapper start -->
                     <div class="parallax parallax-all">
                         <!-- HTML5 video URL start -->
-                        <video playsinline="" autoplay="" muted="" loop="">
+                        <video playsinline autoplay muted loop>
                             <source src="https://www.11-76.com/html5-videos-22/luxex/luxex-2.mp4" type="video/mp4">
                         </video>
                         <!-- HTML5 video URL end -->
@@ -962,40 +960,15 @@
                         <!-- parallax content start -->
                         <div class="parallax-content">
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- testimonials start -->
-                            <div class="owl-carousel owl-carousel-testimonials owl-loaded owl-drag">
+                            <div class="owl-carousel owl-carousel-testimonials">
                                 <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transition: all; width: 10591px; transform: translate3d(-3026px, 0px, 0px);"><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item active center" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1004,7 +977,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1012,7 +988,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1021,36 +1000,28 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                                </div>
+                                <!-- testimonials quote end -->
+                            </div>
                             <!-- testimonials end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- button start -->
-                            
+                            <div class="more-wraper-center">
+                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
+                                    <div class="more-button-bg-center more-button-circle"></div>
+                                    <div class="more-button-txt-center">
+                                        <span>Watch Video</span>
+                                    </div>
+                                </a>
+                            </div>
                             <!-- button end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                         </div>
                         <!-- parallax content end -->
@@ -1074,7 +1045,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1112,7 +1083,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1126,24 +1097,13 @@
             <!-- container start -->
             <div class="container-fluid nopadding">
                 <!-- carousel start -->
-                <div class="owl-carousel owl-carousel-facilities owl-loaded owl-drag">
+                <div class="owl-carousel owl-carousel-facilities">
                     <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                    <!-- halve start -->
-                    
-                    <!-- halve end -->
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 2084px;"><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all facilities-bg-1 all-bg-right"></div>
                         <a class="popup-photo" href="img/facilities/1.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
@@ -1179,7 +1139,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="restaurant.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -1190,7 +1157,10 @@
                             <!-- row end -->
                         </div>
                         <!-- halve TXT end -->
-                    </div></div><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve TXT start -->
                         <div class="half half-color half-color-invert">
                             <!-- row start -->
@@ -1224,7 +1194,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="spa.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -1238,14 +1215,17 @@
                         <!-- halve IMG start -->
                         <div class="half post-bg-all facilities-bg-2 all-bg-left"></div>
                         <a class="popup-photo" href="img/facilities/2.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
-                    </div></div><div class="owl-item active" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve IMG start -->
                         <div class="half post-bg-all facilities-bg-3 all-bg-right"></div>
                         <a class="popup-photo" href="img/facilities/3.jpg" title="IMG Description">
-                            
+                            <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
                         <!-- halve TXT start -->
@@ -1281,7 +1261,14 @@
                                     <div class="divider-l"></div>
                                     <!-- divider end -->
                                     <!-- button start -->
-                                    
+                                    <div class="more-wraper-center">
+                                        <a href="fitness.html">
+                                            <div class="more-button-bg-center more-button-bg-center-dark more-button-bg-center-dark-close more-button-circle"></div>
+                                            <div class="more-button-txt-center more-button-txt-center-close">
+                                                <span>Details</span>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <!-- button end -->
                                     <!-- divider start -->
                                     <div class="divider-l"></div>
@@ -1292,7 +1279,10 @@
                             <!-- row end -->
                         </div>
                         <!-- halve TXT end -->
-                    </div></div><div class="owl-item" style="width: 471px; margin-right: 50px;"><div class="halves">
+                    </div>
+                    <!-- halve end -->
+                    <!-- halve start -->
+                    <div class="halves">
                         <!-- halve TXT start -->
                         <div class="half half-color half-color-invert">
                             <!-- row start -->
@@ -1350,13 +1340,15 @@
                             <div class="image-caption">Image Description</div>
                         </a>
                         <!-- halve IMG end -->
-                    </div></div></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                    </div>
+                    <!-- halve end -->
+                </div>
                 <!-- carousel end -->
                 <!-- divider start -->
                 <div class="divider-l"></div>
                 <!-- divider end -->
                 <!-- owl nav start -->
-                <div class="owl-nav owl-nav-custom-facilities"><div class="owl-prev disabled"><i class="ion-chevron-left"></i></div><div class="owl-next"><i class="ion-chevron-right"></i></div></div>
+                <div class="owl-nav owl-nav-custom-facilities"></div>
                 <!-- owl nav end -->
                 <!-- row start -->
                 <div class="row">
@@ -1366,7 +1358,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1430,7 +1422,7 @@
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
@@ -1454,7 +1446,7 @@
                 <!-- row start -->
                 <div class="row">
                     <!-- photoSwipe start -->
-                    <div class="legendary-gallery" data-pswp-uid="1">
+                    <div class="legendary-gallery">
                         <!-- gallery item start -->
                         <figure class="col-sm-12 col-md-4 hover-effect-img move-down">
                             <a data-size="1280x913" href="photoswipe/photos/large/1.jpg"><img alt="Image description" class="img-responsive" src="photoswipe/photos/small/1.jpg"></a>
@@ -1542,47 +1534,22 @@
                 <!-- row start -->
                 <div class="row">
                     <!-- parallax wrapper start -->
-                    <div class="parallax parallax-all parallax-image-bg-1" data-parallax-speed="0.75" style="background-position: center -412.44%;">
+                    <div class="parallax parallax-all parallax-image-bg-1" data-parallax-speed="0.75">
                         <!-- parallax overlay start -->
                         <div class="parallax-overlay"></div>
                         <!-- parallax overlay end -->
                         <!-- parallax content start -->
                         <div class="parallax-content">
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- testimonials start -->
-                            <div class="owl-carousel owl-carousel-testimonials owl-loaded owl-drag">
+                            <div class="owl-carousel owl-carousel-testimonials">
                                 <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                                <!-- testimonials quote start -->
-                                
-                                <!-- testimonials quote end -->
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transition: all; width: 10591px; transform: translate3d(-3026px, 0px, 0px);"><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Aliquam erat volutpat. Vivamus ornare rhoncus tellus, eget feugiat lorem bibendum nec. Nam sapien urna, tincidunt vel semper id, rhoncus vel
-                                                mauris.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item active center" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1591,7 +1558,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1599,7 +1569,10 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item" style="width: 1513px;"><div class="testimonial testimonial-2">
+                                </div>
+                                <!-- testimonials quote end -->
+                                <!-- testimonials quote start -->
+                                <div class="testimonial testimonial-2">
                                     <div class="inner">
                                         <div class="quote">
                                             <blockquote class="quote-inner">
@@ -1608,36 +1581,28 @@
                                             </blockquote>
                                         </div>
                                     </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                                standard dummy text ever since the 1500s.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div><div class="owl-item cloned" style="width: 1513px;"><div class="testimonial testimonial-2">
-                                    <div class="inner">
-                                        <div class="quote">
-                                            <blockquote class="quote-inner">
-                                                Suspendisse lobortis bibendum blandit. Fusce consectetur urna eget nunc interdum convallis. Sed volutpat vestibulum nisl a sollicitudin.
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                                </div>
+                                <!-- testimonials quote end -->
+                            </div>
                             <!-- testimonials end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- button start -->
-                            
+                            <div class="more-wraper-center">
+                                <a data-lity="" href="https://www.youtube.com/watch?v=4_y9pwXjkkQ">
+                                    <div class="more-button-bg-center more-button-circle"></div>
+                                    <div class="more-button-txt-center">
+                                        <span>Watch Video</span>
+                                    </div>
+                                </a>
+                            </div>
                             <!-- button end -->
                             <!-- divider start -->
                             <div class="divider-l"></div>
                             <!-- divider end -->
                             <!-- line start -->
-                            
+                            <div class="the-line the-line-light"></div>
                             <!-- line end -->
                         </div>
                         <!-- parallax content end -->
@@ -1661,7 +1626,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1677,7 +1642,7 @@
                         <!-- parallax wrapper start -->
                         <div class="parallax-title">
                             <!-- HTML5 video URL start -->
-                            <video playsinline="" autoplay="" muted="" loop="">
+                            <video playsinline autoplay muted loop>
                                 <source src="https://www.11-76.com/html5-videos-22/luxex/luxex.mp4" type="video/mp4">
                             </video>
                             <!-- HTML5 video URL end -->
@@ -1701,7 +1666,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1781,7 +1746,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1830,7 +1795,7 @@
                     <div class="col-lg-12">
                         <!-- copyright start -->
                         <div class="copyright">
-                            © All Rights Reserved.
+                            &copy; All Rights Reserved.
                         </div>
                         <!-- copyright end -->
                     </div>
@@ -1845,7 +1810,7 @@
                         <div class="divider-l"></div>
                         <!-- divider end -->
                         <!-- line start -->
-                        
+                        <div class="the-line"></div>
                         <!-- line end -->
                         <!-- divider start -->
                         <div class="divider-l"></div>
@@ -1875,7 +1840,9 @@
                 <div class="pswp__ui pswp__ui--hidden">
                     <div class="pswp__top-bar">
                         <div class="pswp__counter"></div>
-                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                            "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                            "Zoom in/out"></button>
                         <div class="pswp__preloader">
                             <div class="pswp__preloader__icn">
                                 <div class="pswp__preloader__cut">
@@ -1887,7 +1854,8 @@
                     <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                         <div class="pswp__share-tooltip"></div>
                     </div>
-                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                        "Next (arrow right)"></button>
                     <div class="pswp__caption">
                         <div class="pswp__caption__center"></div>
                     </div>
@@ -1899,5 +1867,5 @@
         <script src="js/plugins.js"></script> 
         <script src="js/luxex.js"></script>
         <!-- scripts end -->
-    
-<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>    </body>    </html>
+    </body>
+</html>
