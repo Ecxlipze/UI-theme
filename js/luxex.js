@@ -7,9 +7,7 @@ $(function() {
         $(".preloader-bg").delay(400).fadeOut(600);
         
         setTimeout(function() {
-            $(".fadeIn-element").delay(600).css({
-                display: "none"
-            }).fadeIn(800);
+            $(".fadeIn-element").delay(600).addClass("fade-in");
         }, 0);
         $(".hero-bg").addClass("hero-bg-show");
     });

@@ -85,6 +85,18 @@
   background-image: url(../img/background/hero-bg-4.jpg);
   }
   
+  .fadeIn-element {
+    opacity: 0;
+    -webkit-transition: opacity 0.8s ease-out;
+    -moz-transition: opacity 0.8s ease-out;
+    -ms-transition: opacity 0.8s ease-out;
+    -o-transition: opacity 0.8s ease-out;
+    transition: opacity 0.8s ease-out;
+}
+
+.fadeIn-element.fade-in {
+    opacity: 1;
+}
   
   /* 1.2. parallax IMG BACKGROUND */
   .parallax-image-bg-1 {
