@@ -1,3 +1,31 @@
+/*
+  [JS Index]
+*/
+
+
+/*
+  1. preloader
+  2. fadeIn.element
+  3. to top animation
+  4. page scroll
+  5. navigation
+  6. navigation dropdown
+  7. animate elements
+  8. facts counter 
+  9. google maps zoom ON/OFF
+  10. owl carousel
+  11. swiper slider
+  12. magnificPopup
+  13. clone function
+  14. items selector
+  15. datepicker
+  16. Select2
+  17. toggle blog panels
+  18. contact form
+    18.1. contact modal
+  19. reservation form
+  20. blog comment form
+*/
 
 
 $(function() {

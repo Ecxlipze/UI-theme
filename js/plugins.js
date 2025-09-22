@@ -1,3 +1,26 @@
+/*
+  [JS Index - plugins]
+*/
+
+/*
+  1. jQuery v3.6.1
+  2. Select2 4.1.0-rc.0
+  3. jquery.countTo
+  4. jQuery.appear v0.1
+  5. jQuery UI v1.13.1 - datepicker.css
+  6. parallax
+  7. PhotoSwipe v4.1.1
+    7.1. PhotoSwipe Default UI v4.1.1
+	7.2. PhotoSwipe Init
+  8. Owl Carousel v2.2.0
+  9. Swiper v4.4.0
+  10. Magnific Popup v1.1.0
+  11. Lity v2.2.2
+  12. Bootstrap v3.3.7
+*/
+
+// 1. jQuery v3.6.1
+/*! jQuery v3.6.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
 !function(e, t) {
     "use strict";
     "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function(e) {
